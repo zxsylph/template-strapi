@@ -16,16 +16,25 @@
         },
         "files.insertFinalNewline": true,
         "files.associations": {
-          "*.example.json": "jsonc"
+          "*.example.json": "jsonc",
+          "*.ts": "typescript",
+          "*.tsx": "typescriptreact"
         },
+        "workbench.editor.labelFormat": "short",
         "editor.formatOnSave": true,
         "editor.wordWrap": "on",
         "gitlens.codeLens.enabled": false,
         "git.autofetch": true,
         "git.autofetchPeriod": 180,
+        "typescript.preferences.importModuleSpecifier": "non-relative",
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
         "[html]": {},
         "[typescript]": {
-          "editor.tabSize": 2
+          "editor.tabSize": 2,
+          "editor.codeActionsOnSave": {
+            "source.sortImports": true
+          },
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
         }
       },
       "extensions": [
